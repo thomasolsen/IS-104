@@ -1,7 +1,43 @@
 body {
-text-align:center;
+/* text-align center vil si at web siden blir sentrert. her ser man også fargevalget på siden og plasseringer. */
+	text-align: center;
+     padding-left: 12em;
+	
+     font-family: Georgia, "Times New Roman", 
+	 Times, serif;
+    color: brown;
+    background-color: silver }
+	/* possisjonering av link listen. */
+	ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute; 
+	top: 2em;
+	left: 1em; 
+	width: 9em }
+	/* under her class h1 er overskriften i web siden. her ser man skriftvalg. */
+	h1 {
+	font-family: Helvetica, Geneva, Ariel, SunSans-Regular, sans-serif }
+/* kodene under her er linkmenyen. her er det lagt in farger hvor linkene blandt annet er blå før de er besøkt og blir lilla etter besøket. videre kan man se bakgrunnsfarger og liste valg. */
+	ul.navbar li {
+	background: gold;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid blue }
+	ul.navbar a {
+	text-decoration: none }
+	a:link {
+	  color: blue } 
+	  a:visited { 
+	  color: purple } 
+	  /* address er navn og dato som er nederst på siden. her kan man se stilen og plasseringer. */
+	  address {
+	  margin-top: 1em;
+	  padding-top: 1em;
+	  border-top-style: solid }
 
-}
+/* kodene under her er fargevalget på dropdown menyen i web siden. */
 
 #ActionScript
 {
@@ -91,3 +127,4 @@ color:SteelBlue ;
 {
 color:Violet ;
 }
+
