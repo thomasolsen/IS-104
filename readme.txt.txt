@@ -1,3 +1,14 @@
+proglangs.html
+dette er en vanlig HTML kode side som også referer til proglangs.css og java.
+
+proglangs.css
+er en egen css fil som er linket til proglangs.html
+
+proglangs.js
+er en egen javascript fil som er linket til proglangs.html
+
+
+
 kontroll spørsmål
 0: 
 hva kan javascript brukes til? 
