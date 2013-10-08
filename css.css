@@ -1,0 +1,24 @@
+body {
+  Text-align: left;
+  padding-left: ;  
+  font-family: Georgia, "Ariel",
+  color: #4212AF;
+  background-color: grey;
+ }
+
+.blue{
+color: blue;
+font-size: 16px;
+font-weight: bold;
+}
+
+.purple{
+	color: purple;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#my_canvas { 
+	border: solid 2px;
+	
+}
