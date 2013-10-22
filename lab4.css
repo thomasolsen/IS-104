@@ -1,0 +1,73 @@
+body{
+	margin:0;
+	padding:0; 
+	height:100%;
+}
+
+#body-container{
+	width:415px; /* setter bredden konstant til angitt px for body-container div*/
+	height:500px; /*setter høyden konstant for angitt px for body-container div*/
+	margin:0 auto; /*dette setter div til senter*/ 
+	border: 1px solid #3285ef; /*setter en ramme rundt body-container div med en farge*/
+}
+
+#body-container .glossary-container {
+	clear: both; /*dette vil ikke tillate flytende ellementer på sidene*/ 
+}
+
+#body-container .content-container{
+	height: 430px; /*setter høyden konstant til angitt px */
+	width: 415px; /*setter bredden konstant til angitt px */
+	overflow: auto; /*et rullefelt vises når innholdet er større en den spesifiserte høyden */
+	font-family: 'arial',verdana,tahoma; /*tar standardfonten 'arial' */
+	font-size: 10pt; /*setter fontstørrelsen til ngitt størrelse */
+	clear:both; /*dette vil ikke tillate flyttende ellementer */
+}
+#body-container .content-container div{
+	padding-left: 10px; /* utfylling (padding) settes til angitt px */
+	border-bottom: 1px #666666 solid; /* adskille hver gruppes farge som 666666 med 1 px */
+} 
+	/* siden listen skal rulles-mulighet for å komme fort tilbake til tops! */
+p.tilbake{
+	color: #0066FF;/* farge til tilbakeknappen "text" */
+	text-decoration: underline;/* teksten understrekes */
+	text-align: right; /* teksten justeres til høyre side */
+	margin-right: 10px; /* gir en marg på 10px fra høyre */
+	cursor: pointer; /* kursøren blir til en "hånd" */
+} 
+/* egenskapene til den ikke-ordnede listen defineres her */
+.firstUL{
+padding: 0px 0px 0px 10px; /* litt utfylling mot venstre */ 
+margin: 0px;/* setter alle marger til null */
+background-color: #3285ef;/* farge på bakgrunn */
+}
+/* egenskapene til hvert listeelement i den uordnede listen */
+.firstUL li { 
+/* for alle listeelementer settes det et bakgrunnsbilde ved å bruke "CSS image Sprites" */
+	background: transparent url(link_sprite_img.jpg) no-repeat scroll 0 0;
+	display: inline; /* utlistningene vil bli satt på en rad  */
+	font-family: 'arial',verdana,tahoma; /* setter fonten til 'arial' */ 
+	font-size: 16pt; /* setter fontstørrelsen til 16 punkter */
+	font-weight: bold; /* gjør teksten fet */
+	padding: 10px 15px 22px; /* setter utfyllingen til alle sider */ 
+	line-height: 70px; /* setter linjehøyde */ 
+	cursor: pointer; /* kursøren blir til en hånd */
+} 
+.firstUL li.selected{
+	background: transparent url(link_sprite_img.jpg) no-repeat scroll 0px -57px; /*  */
+	color: #ffffff; /* setter fontfarge til 'white' */ 
+	font-weight: bold;/* gjør teksten fet */
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
